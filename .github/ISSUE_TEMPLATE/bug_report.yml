@@ -68,7 +68,7 @@ body:
     label: Screenshots
     description: If applicable, add screenshots to help explain your problem.
     placeholder: |
-    Note - Do not reveal sensitive data. For example, credit card numbers & customer credentials.
+      Note - Do not reveal sensitive data. For example, credit card numbers & customer credentials.
   validations:
     required: false
 - type: markdown
