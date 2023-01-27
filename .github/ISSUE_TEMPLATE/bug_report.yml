@@ -31,9 +31,18 @@ body:
     required: true
 - type: input
   attributes:
-    label: Integration type & version
-    placeholder: "e.g. CocoaPods 1.1.1, Carthage 0.18.1, Swift Package Manager 5.7.0"
+    label: Device
+    placeholder: "e.g. iPhone 12"
   validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Package Manager
+    options:
+      - Swfit Package Manager
+      - CocoaPods
+      - Carthage
+      - Prebuilt Binaries / Other
     required: true
 - type: dropdown
   attributes:
