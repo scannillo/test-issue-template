@@ -33,6 +33,8 @@ body:
   attributes:
     label: Device
     placeholder: "e.g. iPhone 12"
+    validations:
+      required: true
 - type: dropdown
   attributes:
     label: Package Manager
@@ -41,7 +43,8 @@ body:
       - CocoaPods
       - Carthage
       - Prebuilt Binaries / Other
-    required: true
+    validations:
+      required: true
 - type: dropdown
   attributes:
     label: Development Processor Type
