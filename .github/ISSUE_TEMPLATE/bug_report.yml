@@ -13,7 +13,7 @@ body:
     options:
       - Sandbox
       - Production
-      - Both (Sandbox & Production)
+      - Both
   validations:
     required: true
 - type: input
@@ -25,7 +25,7 @@ body:
     required: true
 - type: input
   attributes:
-    label: OS Version & Device Type
+    label: OS Version & Device
     placeholder: "e.g iPhone 12 - iOS 16.2"
   validations:
     required: false
@@ -41,12 +41,13 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Development Processor Type
+    label: Development Processor
     options:
       - Intel
       - Apple Silicon (M-series chips)
+      - Both
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
     label: Describe the bug
