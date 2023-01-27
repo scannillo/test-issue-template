@@ -25,19 +25,13 @@ body:
     required: true
 - type: input
   attributes:
-    label: OS Version
-    placeholder: "e.g iOS 16.2"
+    label: OS Version & Device Type
+    placeholder: "e.g iPhone 12 - iOS 16.2"
   validations:
-    required: true
-- type: input
-  attributes:
-    label: Device
-    placeholder: "e.g. iPhone 12"
-  validations:
-    required: true
+    required: false
 - type: dropdown
   attributes:
-    label: Package Manager
+    label: Integration type
     options:
       - Swfit Package Manager
       - CocoaPods
