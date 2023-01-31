@@ -18,12 +18,6 @@ body:
     required: true
 - type: input
   attributes:
-    label: Xcode Version
-    placeholder: "e.g. Xcode 14.1"
-  validations:
-    required: true
-- type: input
-  attributes:
     label: Android Version & Device
     placeholder: "e.g Google Pixel 6a - Android 12.0"
   validations:
